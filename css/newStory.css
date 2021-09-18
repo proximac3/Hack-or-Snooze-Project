@@ -1,0 +1,205 @@
+.newStory {
+    /* background-color: rgb(133, 125, 125); */
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+
+.formTitle {
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.5rem 0rem;
+}
+
+.CreateStoryForm {
+    display: flex;
+    justify-content: center;
+}
+
+.CreateStoryForm form {
+    margin: 2px 0px;
+}
+
+.createStory {
+    margin-right: 10px;
+    border-radius: 50px;
+
+}
+
+.createStory {
+    background-color: rgb(223, 223, 223);
+    transition-duration: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.createStory:hover {
+    background-color: rgba(199, 156, 110, 0.624);
+    /* border: 1px solid black; */
+}
+
+.favorites{
+    background-color: rgb(223, 223, 223);
+    transition-duration: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.favorites:hover {
+     background-color: rgba(199, 156, 110, 0.624);
+}
+
+.CreateStoryForm button {
+    width: 100%;
+    margin: 2px 0px;
+}
+
+/* .deleteStory {
+    float: right
+} */
+
+.deleteStory{
+    margin: 0px 0px;
+}
+
+.deletefav {
+    float: right;
+}
+
+
+
+
+.favorites-list {
+    background-color: #f6f6ef;
+    margin-bottom: 10px;
+}
+
+.favoritesOl{
+    margin: 0px 5px;
+    /* width: 100%; */
+    /* background-color: grey; */
+} 
+
+.favoritesOl > li {
+    color: black;
+    font-size: 0.8rem;
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+
+
+.hideFavoritesButton {
+    border-radius: 10px;
+    background-color: peru;
+}
+
+
+
+/* favorite story paragraph */
+.favPdiv{
+    /* background-color: grey; */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: peru;
+    margin: 5px 0px;
+}
+
+.favPdiv P {
+    margin: 0px 0px;
+}
+
+.closeFavDiv {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fas{
+    margin: 0px 5px;
+}
+
+.deleteStory{
+    margin-right: 10px;
+}
+
+
+
+/* .fa-bookmark {
+    color: rgb(68, 68, 214);
+} */
+
+.fa-trash-alt {
+    color: red;
+}
+
+.edit-story-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.edit-story-form P {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* .edit-story-form form {
+    margin: 5px 0px;
+} */
+
+.IncorrectCredentials {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+}
+
+.username_not_available{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+}
+
+.userProfile {
+    width: 100%;
+    /* background-color: rgba(15, 75, 75, 0.46); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.currentUSer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.changeUserName{
+    border-radius: 50px;
+    font-size: 1rem;
+    background-color: peru;
+};
+
+.newNameinfo {
+    background-color: peru;
+    width: 100%;
+}
+form #submitName{
+    width: 10rem;
+    margin: 0px 0px;
+    align-self: center;
+}
